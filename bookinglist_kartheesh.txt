@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="A site for diagnostic test based on doctor's prescription">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>  
+			table, th, td{  
+  				border: 3px solid LavenderBlush1;  
+  				border-collapse:collapse;  
+			}  
+			th, td{  
+				padding:10px;  
+			} 
+			table{
+				margin:200px 500px;
+			}
+		</style>  
+	</head>
+	<body>
+		<header style="background:LightBlue;padding:25px">
+			<b><big style="padding-right:950px">Logo</big></b>
+			<a href="#">Home</a> |
+			<a href="#">About</a> |
+			<a href="#">Contact</a> |
+			<a href="#">Admin</a> |
+			<a href="#">Signup</a>	
+		</header>
+		<main>
+		<table border=1>
+			<caption><h3>Customer booking details:</h3></caption>
+			<tr>
+				<th>Name</th>
+				<th>Slot</th>
+				<th>Status</th>
+				<th>Lab</th>
+			</tr>
+			<tr>
+				<td>-------</td>
+				<td>-------</td>
+				<td>-------</td>
+				<td>-------</td>
+			</tr>
+			<tr>
+				<td>-------</td>
+				<td>-------</td>
+				<td>-------</td>
+				<td>-------</td>
+			</tr>
+			<tr>
+				<td>-------</td>
+				<td>-------</td>
+				<td>-------</td>
+				<td>-------</td>
+			</tr>
+		</table>
+		</main>		
+	</body>
+</html>

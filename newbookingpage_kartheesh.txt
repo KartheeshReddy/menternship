@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="A site for diagnostic test based on doctor's prescription">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		</style>
+	</head>
+	<body>
+		<header style="background:LightBlue;padding:25px">
+			<b><big style="padding-right:950px">Logo</big></b>
+			<a href="#">Home</a> |
+			<a href="#">About</a> |
+			<a href="#">Contact</a> |
+			<a href="#">Admin</a> |
+			<a href="#">Signup</a>	
+		</header>
+		<main>
+		<form style="padding:100px 100px;">
+			<h2>Registration Form</h2>
+			<fieldset style="background:Bisque;">
+			<legend><big><b>Fill the following details:</b></big></legend>
+			<div style="padding-top:20px;padding-bottom:20px;">
+			<tr> 
+    			<td><label for="Lab Tests">Select a Lab Test:</label></td>  
+    			<td><select name="Tests" style="width:160px">  
+    			<option value="CT Scan">CT Scan</option>  
+    			<option value="Electrocardiogram (ECG)">Electrocardiogram (ECG)</option>  
+    			<option value="Endoscopy">Endoscopy</option>  
+    			<option value="MRI Scans">MRI Scans</option>  
+    			<option value="Thyroid Tests">Thyroid Tests</option>  
+			<option value="Other">Other</option>
+			</select>  
+			</td>  
+			</tr> 
+			</div>
+			<label>Upload Doctor's Prescription:</label>  
+    			<input type="file" name="newfile">
+			<div>
+			<br>
+			<label>Select a lab:</label>
+			</div>
+			<input type="radio" name="Lab" value="Lab1">Lab1<br>
+			<input type="radio" name="Lab" value="Lab2">Lab2<br>
+			<input type="radio" name="Lab" value="Lab3">Lab3<br>
+			<br>
+			<input type="button" value="Next">  
+			</fieldset>
+		</form>
+		</main>		   
+	</body>
+</html>

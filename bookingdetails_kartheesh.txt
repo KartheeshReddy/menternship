@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="A site for diagnostic test based on doctor's prescription">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header style="background:LightBlue;padding:25px">
+			<b><big style="padding-right:950px">Logo</big></b>
+			<a href="#">Home</a> |
+			<a href="#">About</a> |
+			<a href="#">Contact</a> |
+			<a href="#">Admin</a> |
+			<a href="#">Signup</a>	
+		</header>
+		<main>
+		<form>
+			<h2>Booking Details:</h2>
+			<fieldset style="background:FloralWhite;">
+			<legend><b>Fill the following details:<b></legend>
+   			<h3>Personal details:</h3>
+			<span style="padding-right:50px;">
+			<label for=Name>Customer's Name:</label>
+				<input type=text name=name/>
+			</span>
+			<label for=Name>Mobile No:</label>
+				<input type=text name=mobile/></br></br>
+			<label for=email>Email:</label>  
+              			<input type=email name=email/><br/></br>
+			<label for=address>Address:</label>  
+              			<textarea style=rows=2 cols=20></textarea>
+			<hr>
+			<hr>
+			<h3>Booking details:</h3> 
+			<label for=date>Select a Date:</label> 
+				<input type=date name=date></br></br>
+			<tr>  
+				<td><label for=time>Pick a slot:</label></td>  
+    				<td><select name=time style="width:160px">  
+    				<option value="9:00AM-10:00AM">9:00AM-10:00AM</option>  
+    				<option value="11:00AM-12:00PM">11:00AM-12:00PM</option>  
+    				<option value="2:00PM-3:00PM">2:00PM-3:00PM</option>  
+    				<option value="4:00PM-5:00PM">4:00PM-5:00PM</option>  
+				</select>  
+				</td>  
+			</tr></br></br>
+			<hr>
+			<hr> 
+			<input type=submit name=submit/>
+		</form>
+	</main>
+	</body>
+</html>
